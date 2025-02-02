@@ -1,0 +1,13 @@
+# YAML file (config.yaml)
+api_key: "your_api_key_here"
+
+
+
+resource:
+  google_compute_network:
+    main-network-1:
+      name: "main-network-1"
+      auto_create_subnetworks: false
+    main-network-2:
+      name: "main-network-2"
+      auto_create_subnetworks: false
